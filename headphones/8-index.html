@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headphones</title>
+  <link rel="stylesheet" href="8-styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Headphones</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#what-we-do">What we do</a></li>
+        <li><a href="#our-results">Our results</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Hamburger icon -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Experience True Sound</h1>
+      <p>Discover headphones that bring your music to life with deep bass and crystal clarity.</p>
+      <a href="#contact" class="btn">Get Yours</a>
+    </div>
+  </section>
+
+  <!-- What We Do Section -->
+  <section id="what-we-do" class="what-we-do">
+    <h2>What we do...</h2>
+    <p>We design and deliver high-quality audio products that combine comfort, durability, and immersive sound.</p>
+  </section>
+
+  <!-- Our Results Section -->
+  <section id="our-results" class="our-results">
+    <h2>Our results</h2>
+    <p>Our customers enjoy unmatched sound experiences. Join thousands who trust our quality and design.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact us</h2>
+    <form>
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Your email" required>
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Headphones. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navLinks.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
