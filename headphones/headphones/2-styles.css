@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  color: #fff;
+}
+
+/* What We Do */
+#what-we-do {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.service {
+  max-width: 250px;
+}
+
+.service .icon {
+  font-size: 50px;
+  color: #ff4d4d;
+}
+
+/* Our Results */
+#our-results {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f5f5f5;
+}
+
+#our-results h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.result {
+  text-align: center;
+}
+
+.result .circle {
+  width: 120px;
+  height: 120px;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 auto 15px;
+}
+
+.result p {
+  font-size: 16px;
+  color: #333;
+}

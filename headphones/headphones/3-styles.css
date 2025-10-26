@@ -1,0 +1,165 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
+
+/* Header */
+header {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+/* What We Do */
+#what-we-do {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.service {
+  max-width: 250px;
+}
+
+.icon {
+  font-size: 50px;
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+/* Our Results */
+#our-results {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+}
+
+#our-results h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.result {
+  text-align: center;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 auto 15px;
+}
+
+/* Contact Us */
+#contact {
+  background-color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+#contact h2 {
+  font-size: 32px;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff4d4d;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 77, 77, 0.3);
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e43b3b;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%;
+  }
+}
