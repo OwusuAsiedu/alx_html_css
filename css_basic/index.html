@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Home Page</title>
-  <link rel="stylesheet" href="base.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>Welcome to My Home Page</h1>
-  <p>This is my first page styled with CSS!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My ALX CSS Basic Page</title>
+
+    <!-- Link base and custom styles -->
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="works_on_smartphone">
+    <header>
+      <ul>
+        <!-- Optional logo using Unicode (e.g. 🌐) -->
+        <li class="logo">&#127760;</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <article>
+        <h1>Welcome to My Web Page</h1>
+        <p>
+          This page demonstrates CSS Flexbox layout as part of the ALX CSS Basic
+          project. The <code>&lt;article&gt;</code> section takes up two-thirds
+          of the width, and the <code>&lt;aside&gt;</code> takes one-third.
+        </p>
+
+        <h2>Learning Objectives</h2>
+        <p>
+          In this project, I learned how to use <strong>Flexbox</strong> to
+          position HTML elements responsively, and how to create a design that
+          works well on both desktop and mobile.
+        </p>
+
+        <p>
+          Flexbox makes layout management easier and more predictable than using
+          floats or older CSS positioning methods.
+        </p>
+      </article>
+
+      <aside>
+        <h2>Sidebar / Aside Section</h2>
+        <p>
+          This is the aside section. It can contain links, ads, or additional
+          information related to the article.
+        </p>
+        <p>
+          Try resizing the browser window — this layout will adapt thanks to
+          Flexbox and the <code>works_on_smartphone</code> class.
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>© 2025 My Website | Built for ALX Front-End Project</p>
+    </footer>
+  </body>
 </html>
